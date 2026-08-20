@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.25
+        image: 389642461016.dkr.ecr.us-east-1.amazonaws.com/demorepo:latest
         ports:
         - containerPort: 80
         resources:
